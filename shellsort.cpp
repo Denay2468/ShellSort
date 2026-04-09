@@ -51,3 +51,11 @@ void shellsort(){
         pass++;
     }
 }
+
+void display() {
+    cout << "\nSorted array: ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+}
