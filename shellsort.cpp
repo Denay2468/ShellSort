@@ -59,3 +59,10 @@ void display() {
         cout << arr[i] << " ";
     }
 }
+
+int main() {
+    input();
+    shellsort();
+    display();
+    return 0;
+}
